@@ -29,7 +29,7 @@ public class CadastroCelulares extends javax.swing.JFrame {
             String nome = txtCliente.getText().trim();
          
             if(!txtPreco.getText().isEmpty()){
-            preco = Double.parseDouble(txtPreco.getText());
+            preco = Double.valueOf(txtPreco.getText());
             }
 
              Celular celular = new Celular();
@@ -136,7 +136,7 @@ public class CadastroCelulares extends javax.swing.JFrame {
             String nomes = txtCliente.getText().trim();
          
             if(!txtPreco.getText().isEmpty()){
-            preco = Double.parseDouble(txtPreco.getText());
+            preco = Double.valueOf(txtPreco.getText());
             }
 
              
